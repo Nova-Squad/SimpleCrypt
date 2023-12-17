@@ -8,7 +8,7 @@ SimpleCrypt is a versatile encryption tool designed to provide a user-friendly e
 
 - **AES, 3DES, DES Encryption:** SimpleCrypt supports three widely recognized encryption algorithms, ensuring strong data protection.
 
-- **Savable Logs:** Keep track of your encryption activities with savable logs, providing an audit trail for future reference or troubleshooting.
+- **Save Logs:** Keep track of your encryption activities with savable logs, providing an audit trail for future reference or troubleshooting.
 
 ## Supported File Types
 
