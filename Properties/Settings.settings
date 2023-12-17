@@ -5,6 +5,12 @@
     <Setting Name="password_checkbox_setting" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
+    <Setting Name="delete_orginal_files_setting" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="follow_sub_folders_setting" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
     <Setting Name="encryption_password_saved" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>

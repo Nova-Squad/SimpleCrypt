@@ -171,6 +171,7 @@
             this.delete_orginal_files_checkbox.TabIndex = 6;
             this.delete_orginal_files_checkbox.Text = "Delete Orginal Files";
             this.delete_orginal_files_checkbox.UseVisualStyleBackColor = true;
+            this.delete_orginal_files_checkbox.CheckedChanged += new System.EventHandler(this.delete_orginal_files_checkbox_CheckedChanged);
             // 
             // follow_sub_folders_checkbox
             // 
@@ -181,6 +182,7 @@
             this.follow_sub_folders_checkbox.TabIndex = 5;
             this.follow_sub_folders_checkbox.Text = "Follow Sub Folders";
             this.follow_sub_folders_checkbox.UseVisualStyleBackColor = true;
+            this.follow_sub_folders_checkbox.CheckedChanged += new System.EventHandler(this.follow_sub_folders_checkbox_CheckedChanged);
             // 
             // groupBox1
             // 
@@ -270,6 +272,7 @@
             this.encryption_password_textbox.Name = "encryption_password_textbox";
             this.encryption_password_textbox.Size = new System.Drawing.Size(122, 20);
             this.encryption_password_textbox.TabIndex = 12;
+            this.encryption_password_textbox.UseSystemPasswordChar = true;
             this.encryption_password_textbox.TextChanged += new System.EventHandler(this.encryption_password_textbox_TextChanged);
             // 
             // label1

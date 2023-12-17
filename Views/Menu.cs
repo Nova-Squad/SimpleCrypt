@@ -40,6 +40,26 @@ namespace SimpleCrypt.Views
                     save_password_checkbox.Checked = false;
                     break;
             }
+            switch (Properties.Settings.Default.delete_orginal_files_setting)
+            {
+                case true:
+                    delete_orginal_files_checkbox.Checked = true;
+                    break;
+
+                case false:
+                    delete_orginal_files_checkbox.Checked = false;
+                    break;
+            }
+            switch (Properties.Settings.Default.follow_sub_folders_setting)
+            {
+                case true:
+                    follow_sub_folders_checkbox.Checked = true;
+                    break;
+
+                case false:
+                    follow_sub_folders_checkbox.Checked = false;
+                    break;
+            }
         }
 
         private void save_password_checkbox_CheckedChanged(object sender, EventArgs e)
@@ -73,7 +93,34 @@ namespace SimpleCrypt.Views
             }
             Properties.Settings.Default.Save();
         }
-        
+        private void delete_orginal_files_checkbox_CheckedChanged(object sender, EventArgs e)
+        {
+            switch (delete_orginal_files_checkbox.Checked)
+            {
+                case true: 
+                    Properties.Settings.Default.delete_orginal_files_setting = true;
+                    break;
+
+                case false:
+                    Properties.Settings.Default.delete_orginal_files_setting = false;
+                    break;
+            }
+            Properties.Settings.Default.Save();
+        }
+        private void follow_sub_folders_checkbox_CheckedChanged(object sender, EventArgs e)
+        {
+            switch (follow_sub_folders_checkbox.Checked)
+            {
+                case true:
+                    Properties.Settings.Default.follow_sub_folders_setting = true;
+                    break;
+
+                case false:
+                    Properties.Settings.Default.follow_sub_folders_setting = false;
+                    break;
+            }
+            Properties.Settings.Default.Save();
+        }
         private void item_file_path_list_box_DragDrop(object sender, DragEventArgs e)
         {
             string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);

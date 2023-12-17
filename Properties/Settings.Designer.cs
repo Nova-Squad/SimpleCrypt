@@ -37,6 +37,30 @@ namespace SimpleCrypt.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool delete_orginal_files_setting {
+            get {
+                return ((bool)(this["delete_orginal_files_setting"]));
+            }
+            set {
+                this["delete_orginal_files_setting"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool follow_sub_folders_setting {
+            get {
+                return ((bool)(this["follow_sub_folders_setting"]));
+            }
+            set {
+                this["follow_sub_folders_setting"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string encryption_password_saved {
             get {
