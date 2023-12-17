@@ -2,6 +2,8 @@
 
 SimpleCrypt is a versatile encryption tool designed to provide a user-friendly experience while ensuring robust data security. This software supports various encryption algorithms, including AES, 3DES, and DES, offering flexibility and reliability for safeguarding your sensitive information.
 
+![SimpleCrypt](example.png)
+
 ## Key Features
 
 - **AES, 3DES, DES Encryption:** SimpleCrypt supports three widely recognized encryption algorithms, ensuring strong data protection.
@@ -19,3 +21,4 @@ Exclude specific file types during encryption to streamline your workflow. Simpl
 - **Documents:** pdf, txt, rtf, doc, docx, ppt, pptx, xls, xlsx
 - **Images:** jpg, jpeg, png, gif, bmp
 - **Videos:** avi, flv, mov, mp4, mpg, rm, rmvb, mkv, swf, vob, wmv, 3g2, 3gp, asf, ogv
+
