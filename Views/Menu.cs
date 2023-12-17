@@ -151,26 +151,6 @@ namespace SimpleCrypt.Views
             }
         }
 
-
-        // Gets Folders Contents 
-
-        //private void ProcessDirectory(string targetDirectory)
-        //{
-        //    // Process the list of files found in the directory
-        //    string[] fileEntries = Directory.GetFiles(targetDirectory);
-        //    foreach (string fileName in fileEntries)
-        //    {
-        //        item_file_path_list_box.Items.Add(fileName);
-        //    }
-
-        //    // Recursively process subdirectories
-        //    string[] subdirectoryEntries = Directory.GetDirectories(targetDirectory);
-        //    foreach (string subdirectory in subdirectoryEntries)
-        //    {
-        //        ProcessDirectory(subdirectory);
-        //    }
-        //}
-
         private void remove_item_button_Click(object sender, EventArgs e)
         {
             int selectedIndex = item_file_path_list_box.SelectedIndex;
