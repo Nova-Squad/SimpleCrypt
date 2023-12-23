@@ -14,7 +14,6 @@ SimpleCrypt is a versatile encryption tool designed to provide a user-friendly e
 
 Exclude specific file types during encryption to streamline your workflow. SimpleCrypt supports the following file extension categories:
 
-- **All Files**
 - **Audio:** mp3, wav, acc, ogg, amr, wma
 - **Code:** cs, vb, java, py, rb, cpp, html, css, js
 - **Compressed:** zip, rar, 7z, tar, gzip
